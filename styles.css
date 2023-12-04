@@ -1,0 +1,21 @@
+
+h1 {
+    display: none;
+}
+
+.item {
+    width: 18rem;
+}
+
+iframe {
+    height: 70vh;
+}
+
+.perfil {
+    width: 4rem; 
+    height: 4rem;
+}
+
+.redes {
+    width: 2rem;
+}

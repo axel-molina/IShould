@@ -1,0 +1,17 @@
+{
+    "name": "Ishould",
+    "short_name": "Ishould",
+    "theme_color": "#198754",
+    "background_color": "#f8f9fa",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "./assets/img/ishoud.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

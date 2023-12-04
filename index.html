@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/icon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <title>Hamué Victoria Andrea, Molina Alexis, Maquetado y Desarrollo Web 2023, Comisión DMN2AV turno noche</title>
+</head>
+
+<body>
+    <h1>Ishould</h1>
+    <!-- nav -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed z-3 w-100">
+            <div class="d-flex justify-content-between">
+                <a class="navbar-brand w-25" href="#">
+                    <img class="w-50" src="./assets/img/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-success" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success" href="#quienes-somos">¿Quienes somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success" href="#acciones">Acciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success" href="#video">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success" href="#contactos">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Banner -->
+    <section id="home">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="assets/img/banner1.jpg" class="d-block w-100" alt="yoga">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="assets/img/banner2.jpg" class="d-block w-100" alt="nutrición">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="assets/img/banner3.jpg" class="d-block w-100" alt="charlas">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- ¿Quienes somos?  -->
+    <section class="m-4" id="quienes-somos">
+        <h2 class="text-success">¿Quienes somos?</h2>
+        <article class="row m-0 p-0">
+            <div class="col-9">
+                <p>Somos una marca dedicada a inspirar y motivar a las personas a abrazar hábitos
+                    saludables que mejoren su calidad de vida, tanto física como mental. Nuestra pasión radica en
+                    empoderar a
+                    individuos para que tomen el control de su bienestar y se
+                    sientan mejor consigo mismos.</p>
+                <p>Nuestro enfoque integral se refleja en los planes de acción psicológicos, nutricionales y de
+                    actividad
+                    física. Creemos que el equilibrio entre mente y cuerpo es esencial para el bienestar general.
+                </p>
+                <p>Los planes psicológicos están diseñados para ayudarte a manejar el estrés y la
+                    ansiedad, proporcionándote las herramientas necesarias para enfrentar los desafíos mentales con
+                    confianza.
+                </p>
+                <p>En el ámbito de la nutrición, promovemos una alimentación consciente y equilibrada. Nuestros planes
+                    nutricionales personalizados te permiten tomar decisiones informadas sobre tu dieta, fomentando la
+                    salud a
+                    largo plazo.
+                </p>
+                <p>La actividad física también es una parte fundamental de nuestra filosofía. Ofrecemos programas de
+                    ejercicio
+                    adaptados a tus necesidades y objetivos, garantizando que mantenerse activo sea una experiencia
+                    divertida y
+                    sostenible.
+                </p>
+                <p>Nuestro equipo de profesionales altamente capacitados está comprometido en ser tu aliado en este
+                    emocionante
+                    viaje hacia una vida más saludable y feliz. </p>
+            </div>
+            <div class="col-3">
+                <img class="img-fluid rounded" src="./assets/img/meditacion.jpg" alt="meditacion">
+            </div>
+        </article>
+    </section>
+    <!-- Acciones  -->
+    <section class="m-4 col" id="acciones">
+        <h2 class="text-success">Planes de acción</h2>
+        <article class="row m-0 p-0 d-flex justify-content-center">
+            <div class="col-3 card m-2 item">
+                <div class="d-flex justify-content-center">
+                    <img class="card-img-top w-50 p-3" src="./assets/img/manzana.png" alt="manzana">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Nutricional</h3>
+                    <p class="card-text">Ofrece recomendaciones específicas
+                        sobre la elección de alimentos,
+                        tamaño de las porciones y hábitos
+                        alimenticios, fomentando una
+                        alimentación equilibrada y
+                        consciente. Este plan se centra en
+                        lograr metas realistas y proporciona
+                        apoyo continuo para mejorar tu
+                        bienestar a largo plazo.</p>
+                </div>
+            </div>
+            <div class="col-3 card m-2 item">
+                <div class="d-flex justify-content-center">
+                    <img class="card-img-top w-50 p-3" src="./assets/img/pesa.png" alt="pesa">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title"">Corporal</h3>
+                    <p class=" card-text">Considerando tus objetivos y nivel de
+                        actividad actual para desarrollar un
+                        enfoque que se adapte a tu estilo de
+                        vida. Ofrecemos recomendaciones
+                        específicas sobre ejercicios,
+                        intensidad y frecuencia, brindándote
+                        las herramientas necesarias para
+                        fortalecer tu cuerpo y alcanzar tus
+                        metas de bienestar físico.</p>
+                </div>
+            </div>
+            <div class="item col-3 card m-2">
+                <div class="d-flex justify-content-center">
+                    <img class="card-img-top w-50 p-3" src="./assets/img/flower.png" alt="margarita">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Mental</h3>
+                    <p class="card-text">Se orienta a la mejora de tu salud
+                        emocional y psicológica. Ofrecemos
+                        una serie de herramientas y técnicas
+                        diseñadas para ayudarte a manejar
+                        el estrés, la ansiedad y a cultivar una
+                        mente equilibrada. A través de
+                        enfoques de autocuidado,
+                        promovemos la resiliencia y la
+                        adopción de hábitos que fomenten
+                        un estado mental positivo.</p>
+                </div>
+            </div>
+            <div class="col-3 card m-2 item">
+                <div class="d-flex justify-content-center">
+                    <img class="card-img-top w-50 p-3" src="./assets/img/armonia.png" alt="armonia">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Espiritual</h3>
+                    <p class="card-text">Enfocándose en la exploración y la conexión con valores personales, la búsqueda
+                        del
+                        propósito y el crecimiento interior. Incluyendo prácticas como la meditación, la introspección y
+                        el
+                        crecimiento interior. El objetivo de este plan es inspirar a las personas a vivir en armonía con
+                        sus
+                        creencias, a encontrar significado a su vida cotidiana y a experimentar una mayor conexión con
+                        el
+                        mundo.</p>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!-- Video  -->
+    <section class="p-4 bg-success" id="video">
+            <h2 class="text-light">Toma el control</h2>
+            <div class="d-flex justify-content-center">
+                <iframe class="w-100" src="https://www.youtube.com/embed/eayYAehUc3I?si=NNElIqVm-0judYUe"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+    </section>
+    <!-- Contacto  -->
+    <section class="m-4" id="contactos">
+        <h2 class="text-success">Contacto</h2>
+        <form action="enviar.php" class="form p-4" method="post">
+            <div class="container-input mb-3">
+                <label for="Nombre" class="form-label">Nombre completo</label>
+                <input class="form-control" name="ombre" type="text" required>
+            </div>
+            <div class="container-input mb-3">
+                <label for="Correo" class="form-label">Correo electrónico</label>
+                <input class="form-control" name="correo" type="email" required>
+            </div>
+            <div class="container-input mb-3">
+                <label for="Asunto" class="form-label">Asunto</label>
+                <input class="form-control" name="asunto" type="text" required>
+            </div>
+            <div class="container-input mb-3">
+                <label for="Descripcion" class="form-label">Descripción</label>
+                <textarea class="form-control" name="descripcion" id="descripcion" cols="30" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+    </section>
+    <!-- Footer  -->
+    <footer class="row p-4 m-0 bg-light">
+        <div class="col-12 d-flex justify-content-center mb-4">
+            <img class="w-25" src="./assets/img/logo.png" alt="logo">
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-12 d-flex flex-column align-items-start">
+                <p class="text-start">Hamué, Victoria Andrea</p>
+                <p class="text-start"> Molina, Alexis</p>
+                <p class="text-start">Maquetado y Desarrollo Web 2023</p>
+                <p class="text-start">Segundo parcial</p>
+                <p class="text-start">Omar Toyos</p>
+            </div>
+            <div class="w-50 d-flex justify-content-around align-items-center col-md-3 col-sm-6 col">
+                <img class="rounded-circle perfil" src="./assets/img/foto.webp" alt="alumno">
+                <img class="rounded-circle perfil" src="./assets/img/foto.webp" alt="alumno">
+            </div>
+            <div class="mt-3 col-md-3 col-sm-12 col-12">
+                <p class="text-center text-success">Seguinos en nuestras redes sociales</p>
+                <div class="d-flex justify-content-around align-items-center">
+                    <button class="btn">
+                        <a href="https://facebook.com/" target="_blank">
+                            <img class="redes" src="./assets/img/facebook.png" alt="facebook">
+                        </a>
+                    </button>
+                    <button class="btn">
+                        <a href="https://instagram.com/" target="_blank">
+                            <img class="redes" src="./assets/img/instagram.png" alt="instagram">
+                        </a>
+                    </button>
+                    <button class="btn mt-1">
+                        <a href="https://youtube.com/" target="_blank">
+                            <img class="redes" src="./assets/img/youtube.png" alt="youtube">
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <p class="text-center">© 2023 "I should". Todos los derechos reservados, porque somos tan serios que asustamos a
+            los aburridos.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind('[data-fancybox="gallery"]', {});    
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous">
+    </script>
+     <script type="text/javascript">
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.register("sw.js");
+        }
+      </script>
+</body>
+
+</html>
